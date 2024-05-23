@@ -6,6 +6,5 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
-  site: 'https://nirmal-h.github.io',
-  base: '/codex',
+  site: 'https://nirmal-codex.netlify.app',
 });
